@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    
+    
+}
+body{
+    background-image: url(/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+.text{
+    
+    
+    padding-right: 6em;
+    font-size: larger;
+  
+    
+
+}
+
+.background{
+position: absolute;
+z-index: -1;
+background-color: hsl(257, 40%, 49%);
+width: 100%;
+}
+.huddle{
+    margin-top: 2.7em ;
+    margin-left: 2.9em;
+    position: absolute;
+    z-index: 1;
+    display: inline;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 11em;
+    align-items: center;
+    max-height: 31em;
+    
+}
+
+.middle .layout{
+    width: 116em;
+    padding-right: 4em;
+    margin-left: 3.5em;
+    margin-right: 3em;
+    overflow: hidden;
+
+
+}
+.btn{
+    width: 10em;
+    height: 3em;
+    border: 1px;
+    margin-top: 5em;
+    color: hsl(300, 69%, 71%);
+    border-radius: 1.5em;
+    box-shadow: 0px 8px 17px -8px black;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.btn:hover{
+    width: 10em;
+    height: 3em;
+    cursor: pointer;
+    border: 1px;
+    margin-top: 5em;
+    
+    color: white;
+    background-color: hsl(300, 69%, 71%);;
+    border-radius: 1.5em;
+    box-shadow: 0.1em 0.2em 0.9em 0.001em black;
+    position: relative;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+.button{
+    padding: 0em 4em 4em 0.5em;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    margin-top: 2em;
+    line-height: 1.8;
+}
+.footer{
+   text-align: right;  
+   margin-right: 8em; 
+   margin-bottom: 10000px;
+   
+}
+
+.footer a i{
+color: white;
+margin-top: 1em;
+transition: all 0.2s ease;
+
+}
+.footer a:not(:first-child){
+    margin-left: 2em;
+}
+.footer a i:hover{
+    color: hsl(300, 69%, 71%);;
+    margin-top: 1em;
+    
+    }
+
+
+
+
+
+
